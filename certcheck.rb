@@ -8,9 +8,9 @@ load "config.rb"
 #schedule the certificate check every day at 9am UCT
 scheduler = Rufus::Scheduler.new
     #example setting for test 
--      #scheduler.every '10s' do
--   #example setting for live 
--      #scheduler.cron '0 9 * * *' do
+      #scheduler.every '10s' do
+    #example setting for live 
+      #scheduler.cron '0 9 * * *' do
 
 def ssl_check
     #performs the actual certificate check on the array of websites
